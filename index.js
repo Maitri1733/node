@@ -1,4 +1,5 @@
 let app = require("./app");
+const colors = require("colors");
 
 let a = 10;
 var b = 20;
@@ -25,3 +26,4 @@ console.warn(result);
 // console.log(x);
 // console.log(app);
 // console.log(app.z());
+console.log("Hello Maitri".bgRed);
